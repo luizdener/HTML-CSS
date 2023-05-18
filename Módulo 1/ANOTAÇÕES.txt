@@ -1,0 +1,77 @@
+MÓDULO 1
+
+Repositórios Públicos:
+    github.com/gustavoguanabara
+    gustavoguanabara.github.io
+
+HTML: A linguagem HTML (LINGUAGEM DE MARCAÇÃO DE HIPER TEXTO) é focada em conteúdo!
+
+CSS: Estilos
+
+JAVASCRIPT: Interatividade
+
+Estrutura básica html:
+<!DOCTYPE html>
+<html lang="pt-br"
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    .
+    .
+    .
+    </body>
+</html>
+
+Client-side / front-end: Responsável pela parte visual e interações.
+    Tecnologias: HTML, CSS, JAVASCRIPT.
+
+Server-side / back-end: Responsável pela interação entre o código e o servidor.
+    Tecnologias: PHP, JAVASCRIPT(NODE.JS), C#, PYTHON, RUBY, JAVA.
+
+
+
+TAGS:
+    <hr>: Linha horizontal
+    <br>: Quebra de linha
+    &lt;: <
+    &gt;: >
+
+
+Sites para buscar imagens sem direitos autorais:
+    Unsplash
+    Pexels
+
+Site para buscar icons sem direitos autorais:
+    IconArchive
+
+Criar icons
+    Favicon cc
+
+Converter imagens para icons
+    Favicon io
+
+Um index pode utilizar mais de um link para estilos CSS
+
+Um mesmo index pode utilizar os 3 tipos estilos CSS (inline, interno e externo)
+
+Ordem de prevalecência dos estilos no arquivo: INLINE mais forte que INTERNO mais forte que EXTERNOS
+
+
+
+MÓDULO 2
+
+Cores primárias: azul, amarelo, vermelho
+
+Cores secundárias: laranja, violeta, verde
+
+Cores terciárias: todas as demais misturas de cores
+    amarelo-alaranjado, vermelho-alaranjado, vermelho-arroxeado, azul-arroxeado, azul-esverdeado, amarelo-esverdeado
+
+Recomenda-se utilizar de 3 a 5 cores na paleta de cores de um site.
+
+Cores complementares são cores que constrastam entre-si
+
+Cores análogas são as cores vizinhas entre si.

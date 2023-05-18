@@ -1,0 +1,12 @@
+body {
+    background-image: url(https://raw.githubusercontent.com/gustavoguanabara/html-css/master/desafios/modulo-02/d011/imagens/espaco.jpg);
+}
+
+.astronauta {
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

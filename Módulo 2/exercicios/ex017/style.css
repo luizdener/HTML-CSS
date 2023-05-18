@@ -1,0 +1,29 @@
+body {
+    font-family: 'Work sans', Arial, Helvetica, sans-serif;
+    /*
+    Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    */
+    font-size: 1em;
+    font-weight: bolder; /* lighter normal bold bolder*/
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h1, h2 {
+
+    /* shorthand font
+    font-style > font-weigth > font-size > font-family
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+    font-style: italic;
+    */
+
+    font: italic bolder 3em 'Work Sans', sans-serif;
+}
+

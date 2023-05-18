@@ -1,0 +1,65 @@
+SELETORES:
+    O que em HTML é id em CSS o seletor é #
+    O que em HTML é class em CSS o seletor é .
+
+    Em CSS o seletor > significa que um elemento é filho do outro. Exemplo div > p  (p é filho de div)
+
+    Dentro de um mesmo documento HTML só pode haver um elemento com o id
+    Id sobrepõe configurações de class
+
+    :: = pseudo elemento
+    : = pseudo classe
+    > = filho
+
+height = altura
+weidth = largura
+
+PSEUDO CLASSES:
+    hover = quando passar mause por cima
+    visited = quando visitado
+
+    active = quando ativo
+
+PSEUDO ELEMENTOS:
+    before = antes do elemento
+    after = depois do elemento
+
+TIPOS DE CAIXA:
+    box-level = sempre inicia em uma linha nova;
+                ocupa toda a largura da tela (viewport)
+                EXEMPLOs: <DIV>
+                          <H1>-<H6>
+                          <P>
+                          <MAIN>
+                          <HEADER>
+                          <NAV>
+                          <ARTICLE>
+                          <ASIDE>
+                          <FOOTER>
+                          <FORM>
+                          <VIDEO>
+
+    inline-level = inicia ao lado do conteúdo anterior
+                   não ocupa a largura inteira
+                   EXEMPLOS: <SPAN>
+                             <A>
+                             <CODE>
+                             <SMALL>
+                             <STRONG>
+                             <EM>
+                             <SUP>-<SUB>
+                             <LABEL>
+                             <BUTTON>
+                             <INPUT>
+                             <SELECT>
+
+PARAMETROS DE CAIXAS:
+    width = largura
+    height = altura
+    border = borda
+    padding = espaço entre conteúdo e borda
+    margin = espaço entre uma caixa e outra
+    outline = contorno fora do elemento
+
+
+User agent é o navegador
