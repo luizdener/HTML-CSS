@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+:root{
+    --cor1: #ff5678;
+    --cor2: #35e6e9;
+
+    --fonte-1: 'Roboto', sans-serif;
+    --fonte-2: ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fonte-1);
+    font-size: 1.6rem;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:   
+    ". . . . ." 
+    ". logo . form ."
+    ". logo . form ."
+    ". . . . .";
+    gap: 8.5rem;
+}
+
+main {
+    grid-area: form;
+}
+
+aside {
+    grid-area: logo;
+}
+
+aside h1 {
+    font-family: var(--fonte-1);
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+}
+
+aside h1 span, main h2 span{
+    color: var(--cor1);
+}
+
+main {
+    width: 60rem;
+    height: 52rem;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 4.4rem 5.7rem;
+
+    border-radius: 1.2rem;
+}
+
+main h2{
+    max-width: 43rem;
+
+    font-family: var(--fonte-1);
+    font-size: 3.6rem;
+    font-weight: 500;
+    line-height: 5.4rem;
+
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    align-items: center;
+}
+
+.btn-cadastro {
+    background-color: var(--cor2);
+    width: 49rem;
+    height: 5.5rem;
+
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+
+    border-radius: 1.2rem;
+
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5.4rem;
+}
+
+.btn-ver-entidades {
+    background-color: var(--cor1);
+    width: 49rem;
+    height: 5.5rem;
+
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+
+    border-radius: 1.2rem;
+
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+
+    margin-top: 7.9rem;
+}
+
+.rodape {
+    font-size: 1.6rem;
+}
+
+.link-rodape {
+    font-size: 1.8rem;
+    display: block;
+
+    text-decoration: none;
+    color: black;
+}   
