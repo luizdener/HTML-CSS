@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    #icone_menu {
+        display: none;
+    }
+
+    #itens_menu {
+        display: block;
+    }
+
+    #itens_menu ul {
+        display: flex;
+        flex-direction: row;
+
+        gap: 10px;
+    }
+
+    #itens_menu a {
+        padding: 8px;
+    }
+
+    main {
+        width: 768px;
+    }
+}

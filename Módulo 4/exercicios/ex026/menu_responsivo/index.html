@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Responsivo</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media_queries.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <span id="icone_menu" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens_menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SOBRE</a></li>
+                <li><a href="#">CURIOSIDADES</a></li>
+                <li><a href="#">CONTATO</a></li>
+                <li><a href="#">TRABALHE CONOSCO</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main onresize="mudouTamanho()">
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consequuntur ad excepturi harum voluptates? Voluptate beatae excepturi adipisci vel, temporibus voluptatem suscipit? Mollitia quae reprehenderit amet? Repellendus commodi architecto adipisci!</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero vero voluptatem qui placeat rerum molestiae amet, dolor impedit, esse incidunt dicta consectetur praesentium natus. Repellendus ab cum saepe corporis incidunt.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, libero earum veritatis magnam incidunt laborum est quaerat commodi qui corrupti at illo similique. Maiores, cupiditate deserunt odio eaque id provident.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates temporibus est saepe, tempore veniam nihil, dolorem libero laudantium suscipit autem aperiam sint eum nostrum voluptatum dolor veritatis mollitia molestiae officiis?</p>
+        </article>
+    </main>
+</body>
+
+<script src="functions.js"></script>
+</html>
